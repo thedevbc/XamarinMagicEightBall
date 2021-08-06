@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MagicEightBall.MagicEightBall">
+    <StackLayout>
+        <Label Text="Ask me a question, then shake for an answer." FontSize="Body"/>
+        <Label Text="Here is your answer:" FontSize="Body"/>
+        <Label x:Name="responseDisplay"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"
+               FontSize="Large"
+               Text=""
+               HorizontalTextAlignment="Center"/>
+        <Button x:Name="backBtn" Text="Tap here to go back." Pressed="backBtn_Pressed"/>
+    </StackLayout>
+
+</ContentPage>
